@@ -1,0 +1,4 @@
+[repositories]
+local
+my-ivy-proxy-releases: http://192.168.41.41:8081/artifactory/sbt-dev/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+my-maven-proxy-releases: http://192.168.41.41:8081/artifactory/sbt-dev/
