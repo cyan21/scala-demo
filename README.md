@@ -17,10 +17,10 @@ $ yum install -y sbt java
 
 ## Artifactory configuration
 
-Edit repositories file based on Artifactory location
-Move repositories to /root/.sbt/
-Edit credentials, resolvers and publishTo in build.sbt
-Add **-Dsbt.override.build.repos=true** at the end of /etc/sbt/sbtopts
+* Edit repositories file based on Artifactory location
+* Move repositories to /root/.sbt/
+* Edit credentials, resolvers and publishTo in build.sbt
+* Add **-Dsbt.override.build.repos=true** at the end of /etc/sbt/sbtopts
 
 
 ## How to 
